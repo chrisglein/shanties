@@ -40,7 +40,7 @@ title: Contents
 
 <div class="warn-aside">
 
-<p class="qr-label">Scan for digital version</p>
+<p class="qr-label">Scan for PDF</p>
 
 <p class="toc-qr"><img src="qr.png" alt="QR code"></p>
 

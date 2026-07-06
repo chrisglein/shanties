@@ -1,7 +1,7 @@
 # South Australia
 
 [E]In South Australia I was born
-> Heave away, haul away
+> [A]Heave [E]away, [A]haul [E]away
 [E]In South Australia [B7]'round Cape [E]Horn
 > We're bound for South Aus[B7]tral[E]ia
 

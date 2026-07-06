@@ -9,9 +9,9 @@ But the fairest of them all, me boys, the one to beat the day
 
 {chorus}
 [Dm]So follow me lads… [Am]cause this [Dm]ain't no grog or [Am]ale
-[Dm]One pint down [C]you'll be swing[Dm]ing in the [C]gale
-[Dm]Five pints bul[C]ly you'll be shak[F]ing in your [C]shoes
-[Dm]…We're half-seas ov[F]er on the Jo[C]li Rouge.
+[Dm]One pint [C]down you'll be [Dm]swinging in the [C]gale
+[Dm]Five pints [C]bully you'll be [F]shaking in your [C]shoes
+…We're [Dm]half-seas [F]over on the [C]Joli [Dm]Rouge.
 
 ---
 

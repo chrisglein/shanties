@@ -75,6 +75,5 @@ Body:
 
 ## References
 
-- [SongAnalysis.md](../../../SongAnalysis.md) — worked example: a full chord audit of all 16 booklet songs against their ABC, with the error taxonomy this skill uses.
 - `ABCquickRefv0_6.pdf` and `abc_standard_v2.1 [abc wiki].mht` in the repo root — ABC notation reference.
 - [booklet/README.md](../../../booklet/README.md) — build/print instructions and file roles.

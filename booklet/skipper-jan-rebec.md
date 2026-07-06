@@ -2,7 +2,7 @@
 
 [Eb/I]Who's the king of the [Ab/IV]fighting [Eb/I]Dutch
 > [Eb/I]Skipper [Bb/V]Jan Rebec
-[Eb/I]And who do the sailors[Ab/IV]fear so much
+[Eb/I]And who do the sailors [Ab/IV]fear so much
 > [Eb/I]Skipper [Bb/V]Jan&nbsp;&nbsp;&nbsp;[Eb/I]Rebec
 
 {chorus}

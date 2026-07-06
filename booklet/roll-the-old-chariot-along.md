@@ -6,10 +6,10 @@ We'd be all right if the wind was in our sails.
 > And we'll all hang on behind.
 
 {chorus}
-> [Dm]And we'll roll the old chariot along
-> [C]We'll roll the old chariot along
-> [Dm]We'll roll the old chariot along
-> [F]And we'll all [C]hang on be[Dm]hind
+> And we'll [Dm]roll the old chariot along
+> We'll [C]roll the old chariot along
+> We'll [Dm]roll the old chariot along
+> And we'll [F]all hang [C]on be[Dm]hind
 
 We'll be all right if we make it round The Horn.
 > We'll be all right if we make it round The Horn.

@@ -7,7 +7,7 @@ Sally is the girl that I spliced nearly,
 
 {chorus}
 > [G]So help me ba ba bully in the alley,
-> [C]way hey [G]bully in the [D]alley
+> [C]way [G]hey [D]bully in the alley
 > [G]So help me ba ba bully in the alley,
 > [C]bully down in [G]shinbone [D7]al[G]—
 

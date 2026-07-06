@@ -1,13 +1,13 @@
 # Wellerman
 
 [Cm]There once was a ship that put to sea,
-the name of the ship was the [Fm]Billy o [Cm]Tea.
+the [Fm]name of the ship was the [Cm]Billy o Tea.
 [Cm]The winds blew hard, her bow dipped down.
 Oh [G]blow my bully boys [Cm]blow.
 
 {chorus}
 > [Ab]Soon may the [Eb]Wellerman come
-> to [Fm]bring us sugar and tea and [Cm]rum
+> to [Fm]bring us sugar and [Cm]tea and rum
 > [Ab]One day the [Eb]tonguin is done
 > we'll [G]take our leave and [Cm]go
 

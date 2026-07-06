@@ -16,12 +16,12 @@ With the [Em]girls of [B]old Mau[Em]i
 > We're [Em]homeward [B]bound from the [G]Arctic [D]ground
 > Rolling [Em]down to [B]old Mau[Em]i
 
----
-
 Once more we sail with a Northerly gale,
 Through the ice and wind and rain
 Them coconut fronds, the tropical shores,
 We soon shall see again
+
+---
 
 For six hellish months we passed away
 On the cold Kamchatka sea

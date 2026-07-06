@@ -3,7 +3,7 @@
 {chorus}
 [G]Leave her Johnny [C]leave her
 > Oh [F]leave her Johnny [C]leave her
-For the [F]voyage is [C]long and the [G]winds don't [C]blow
+For the [F]voyage [C]is long [G]and the winds [C]don't blow
 > [C]And it's time for us to [G7]leave [C]her
 
 I thought I heard the old man say

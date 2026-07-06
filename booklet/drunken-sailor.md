@@ -9,7 +9,7 @@ What will we do with a drunken sailor?
 [Dm]Way hey and up she rises
 [C]Way hey and up she rises
 [Dm]Way hey and up she rises
-> [F]Early in the [C]morn[Dm]ing!
+> [F]Early [C]in the [Dm]morning!
 
 Shave his belly with a rusty razor
 Shave his belly with a rusty razor

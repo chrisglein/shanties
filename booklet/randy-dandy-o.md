@@ -1,10 +1,10 @@
 # Randy Dandy O
 
 {chorus}
-[Eb]Heave a pawl oh heave a way
-> [Bb]Way hey roll and go
-[Eb]The anchor's on board and the cable's all [Bb]stored
-> [Eb]To me rollickin' [Cm]randy dandy O
+[Cm]Heave a pawl oh heave a way
+> [Cm]Way [Bb]hey [Cm]roll and go
+The [Eb]anchor's on board and the [Bb]cable's all stored
+> [Cm]To me rollickin' randy [G7]dandy [Cm]O
 
 Now we are ready to sail for the Horn
 > Way hey roll and go

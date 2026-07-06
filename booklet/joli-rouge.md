@@ -8,10 +8,10 @@ But the fairest of them all, me boys, the one to beat the day
 …is made from apples up the mighty Saguenay.
 
 {chorus}
-[Dm]So follow me lads… cause this [Am]ain't no grog or ale
-[Dm]One pint down you'll be [C]swinging in the gale
-[Dm]Five pints bully you'll be [C]shaking in your [F]shoes
-[Dm]…We're half-seas [C7]over on the [Dm]Joli Rouge.
+[Dm]So follow me lads… [Am]cause this [Dm]ain't no grog or [Am]ale
+[Dm]One pint down [C]you'll be swing[Dm]ing in the [C]gale
+[Dm]Five pints bul[C]ly you'll be shak[F]ing in your [C]shoes
+[Dm]…We're half-seas ov[F]er on the Jo[C]li Rouge.
 
 ---
 

@@ -1,8 +1,5 @@
 # Leave Her Johnny
 
-I thought I heard the old man say
-> Leave her Johnny leave her
-Tomorrow ye will get yer pay
 I [C]thought I heard the old man say
 > [F]Leave her Johnny [C]leave her
 To[F]morrow [C]ye will [G]get yer [C]pay
@@ -13,8 +10,6 @@ To[F]morrow [C]ye will [G]get yer [C]pay
 > Oh [F]leave her Johnny [C]leave her
 > For the [F]voyage is [C]long and the [G]winds don't [C]blow
 > [C]And it's time for us to [G7]leave [C]her
-
-[Chorus]
 
 Oh the wind was foul and the sea was high
 > Leave her Johnny leave her

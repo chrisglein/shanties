@@ -1,10 +1,11 @@
 # Bully Boys
 
 {chorus}
-And it's [C]row me bully boys we're in a [F]hurry boys
-[C]we've got a long way to [G7]go
-And we'll [C]sing and we'll dance and bid farewell to [F]France
-[G7]row me bully boys [C]row
+> And it's [C]row me bully boys we're in a [F]hurry boys
+> [C]we've got a long way to [G7]go
+> And we'll [C]sing and we'll dance
+> And bid farewell to [F]France
+> [G7]row me bully boys [C]row
 
 And we sailed away in the roughest of water,
 > row me bully boys row

@@ -6,9 +6,9 @@
 > We're bound for [B7]South Austral[E]ia
 
 {chorus}
-[A]Haul away, you rolling [E]kings
+> [A]Haul away, you rolling [E]kings
 > [A]Heave a[E]way, [A]haul a[E]way
-[A]Haul away, oh hear me [E]sing
+> [A]Haul away, oh hear me [E]sing
 > We're bound for [B7]South Austral[E]ia
 
 As I walked out one morning fair

@@ -6,10 +6,10 @@ The winds blew hard, her bow dipped down.
 Oh [G]blow my bully boys [Cm]blow.
 
 {chorus}
-[Ab]Soon may the [Eb]Wellerman come
-to [Fm]bring us sugar and [Cm]tea and rum
-[Ab]One day the [Eb]tonguin is done
-we'll [G]take our leave and [Cm]go
+> [Ab]Soon may the [Eb]Wellerman come
+> to [Fm]bring us sugar and [Cm]tea and rum
+> [Ab]One day the [Eb]tonguin is done
+> we'll [G]take our leave and [Cm]go
 
 She'd not been two weeks from shore,
 when down on her a right whale bore.

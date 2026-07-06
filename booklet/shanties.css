@@ -177,7 +177,7 @@
 /* Call/response: the response refrain sits indented and italic. */
 .refrain {
   font-style: italic;
-  padding-left: 0.32in;
+  padding-left: 0.16in;
   color: #1a1a1a;
 }
 

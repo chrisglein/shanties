@@ -3,7 +3,7 @@
 I [C]thought I heard the old man say
 > [F]Leave her Johnny [C]leave her
 To[F]morrow [C]ye will [G]get yer [C]pay
-> And it's time for us to [G7]leave [C]her
+> And it's [C]time for us to [G7]leave [C]her
 
 {chorus}
 > [G]Leave her Johnny [C]leave her

@@ -3,7 +3,8 @@
 {chorus}
 > And it's [C]row me bully boys [F]we're in a hurry boys
 > [C]we've got a long way to [G7]go
-> And we'll [C]sing and we'll dance and bid [F]farewell to France
+> And we'll [C]sing and we'll dance
+> and bid [F]farewell to France
 > [G7]row me bully boys [C]row
 
 And we sailed away in the roughest of water,

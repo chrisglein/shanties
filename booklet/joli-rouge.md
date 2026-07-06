@@ -8,10 +8,10 @@ But the [Dm]fairest of them [C]all, me boys, the [F]one to beat the [C]day…
 …is [Dm]made from [F]apples up the [C7]mighty [F]Saguenay.
 
 {chorus}
-[Dm]So follow me lads [Am]… cause this [Dm]ain't no grog or [Am]ale
-[Dm]One pint [C]down you'll be [Dm]swinging in the [C]gale
-[Dm]Five pints [C]bully you'll be [F]shaking in your [C]shoes
-…We're [Dm]half-seas [F]over on the [C]Joli [Dm]Rouge.
+> [Dm]So follow me lads [Am]… cause this [Dm]ain't no grog or [Am]ale
+> [Dm]One pint [C]down you'll be [Dm]swinging in the [C]gale
+> [Dm]Five pints [C]bully you'll be [F]shaking in your [C]shoes
+> …We're [Dm]half-seas [F]over on the [C]Joli [Dm]Rouge.
 
 ---
 

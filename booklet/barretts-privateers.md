@@ -9,10 +9,10 @@ To the scummiest vessel I've ever [F]seen
 > God [C]damn [G]them [C]all!
 
 {chorus}
-[C]I was [F]told we'd [G]cruise the [F]seas for A[C]merican [F]gold
-We'd [C]fire [G]no [C]guns, shed no [F]tears
-Now I'm a [C]broken [F]man on a [C]Halifax [F]pier
-The last of Barrett's [G7]priva[C]teers
+> [C]I was told we'd [G]cruise the seas for [Am]American gold
+> We'd [C]fire [G]no [C]guns, shed no [F]tears
+> Now I'm a [C]broken [F]man on a [C]Halifax [F]pier
+> The [Am]last of Barrett's [G7]priva[C]teers
 
 On the ninety-sixth day we sailed again
 > How I wish I was in Sherbrooke now!

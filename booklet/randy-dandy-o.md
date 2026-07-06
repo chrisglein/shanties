@@ -1,9 +1,9 @@
 # Randy Dandy O
 
 {chorus}
-[Am]Heave a pawl oh heave a way
+> [Am]Heave a pawl oh heave a way
 > [G]Way hey [C]roll and go
-The [C]anchor's on board and the [G]cable's all stored
+> The [C]anchor's on board and the [G]cable's all stored
 > To me [Am]rollickin' randy [E7]dandy [Am]O
 
 Now we are ready to sail for the Horn

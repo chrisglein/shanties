@@ -36,7 +36,7 @@ title: Contents
 
 <p class="toc-qr"><img src="qr.png" alt="QR code"></p>
 
-<p class="colophon">June 2026, Version 6</p>
+<p class="colophon">June 2026, Version 7</p>
 
 </div>
 

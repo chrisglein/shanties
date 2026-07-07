@@ -28,15 +28,25 @@ title: Contents
 
 <div class="warn-block">
 
+<div class="warn-text">
+
 <h2 class="warn-title">Warning</h2>
 
-<p>These shanties are a product of their time,<br>some may represent regressive views.</p>
+<p>These shanties are a product of their time, some may represent regressive views.</p>
 
-<p>This shanty songbook strives to ride the line between<br>authentic but also not problematic. We did our best.</p>
+<p>This shanty songbook strives to ride the line between authentic but also not problematic. We did our best.</p>
+
+</div>
+
+<div class="warn-aside">
+
+<p class="qr-label">Scan for PDF</p>
 
 <p class="toc-qr"><img src="qr.png" alt="QR code"></p>
 
-<p class="colophon">June 2026, Version 6</p>
+<p class="colophon">July 2026, Version 7</p>
+
+</div>
 
 </div>
 

@@ -9,7 +9,7 @@ We'd be all right if the wind was in our sails.
 > And we'll [Dm]roll the old chariot along
 > We'll [C]roll the old chariot along
 > We'll [Dm]roll the old chariot along
-> And we'll [F]all hang [C]on be[Dm]hind
+> And we'll [F]all hang [A7]on be[Dm]hind
 
 We'll be all right if we make it round The Horn.
 > We'll be all right if we make it round The Horn.

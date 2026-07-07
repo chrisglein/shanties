@@ -4,4 +4,6 @@
 node_modules
 yarn.lock
 package-lock.json
-.playwright-mcp/
+
+# Playwright MCP scratch (page snapshots, console logs)
+/.playwright-mcp/

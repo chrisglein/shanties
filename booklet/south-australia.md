@@ -1,9 +1,9 @@
 # South Australia
 
-[E]In South Australia [A]I was [E]born
-> [A]Heave a[E]way, [A]haul a[E]way
+[E]In South Australia I was born
+> [A]Heave [E]away, [A]haul [E]away
 [E]In South Australia [B7]'round Cape [E]Horn
-> [E]We're bound for South Aus[B7]tral[E]ia
+> We're bound for South Aus[B7]tral[E]ia
 
 {chorus}
 > [A]Haul away, you rolling [E]kings

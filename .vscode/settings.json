@@ -1,12 +1,10 @@
 {
     // Workspace-level auto-approve list. Lives in the repo so it roams across
-    // all machines via git. Per-machine overrides go in %APPDATA%\Code\User\settings.json.
+    // all machines via git. Per-machine overrides go in ~\Code\User\settings.json.
     //
     // Design rule: ONLY read-only / stdout-only cmdlets and a CLOSED, enumerated
     // list of helper scripts may auto-approve. Nothing that writes to disk,
     // executes an arbitrary script block, or names an unknown script belongs here.
-    //
-    // See .github/skills/_shared/scripts/README.md for the rationale and full mechanism.
     "chat.tools.terminal.autoApprove": {
         // --- Read-only inspection (no side effects) ---
         "Test-Path": true,

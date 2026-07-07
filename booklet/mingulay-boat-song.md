@@ -1,10 +1,10 @@
 # Mingulay Boat Song
 
 {chorus}
-[D]Heave her ho, boys, [G]let her go, boys
-Swing her head [D]round into the [C]weather
-[D]Heave her ho, boys, [G]let her go, boys
-Sailing [D]homeward to Mingu[G]lay
+> [D]Heave her [G]ho, boys, let her go, boys
+> Swing her [D]head round into the [C]weather
+> [D]Heave her [G]ho, boys, let her go, boys
+> Sailing [D]homeward to Mingu[G]lay
 
 What care we, though, white the Minch is?
 What care we, boys, for windy weather

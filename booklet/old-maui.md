@@ -10,10 +10,10 @@ And we [Em]don't give a [B]damn when we [G]drink our [D]rum,
 With the [Em]girls of [B]old Mau[Em]i
 
 {chorus}
-[Em]Rolling [G]down to old Mau[D]i, me boys
-Rolling [Em]down to old Mau[B]i
-We're [Em]homeward [B]bound from the [G]Arctic [D]ground
-Rolling [Em]down to [B]old Mau[Em]i
+> [Em]Rolling [G]down to old Mau[D]i, me boys
+> Rolling [Em]down to old Mau[B]i
+> We're [Em]homeward [B]bound from the [G]Arctic [D]ground
+> Rolling [Em]down to [B]old Mau[Em]i
 
 ---
 

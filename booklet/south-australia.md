@@ -1,15 +1,15 @@
 # South Australia
 
-[E]In South Aus[A]tralia I was [E]born
-> Heave away, haul away
-[E]In South Australia 'round [B7]Cape [E]Horn
-> We're bound for [B7]South Austral[E]ia
+[E]In South Australia [A]I was [E]born
+> [A]Heave a[E]way, [A]haul a[E]way
+[E]In South Australia [B7]'round Cape [E]Horn
+> [E]We're bound for South Aus[B7]tral[E]ia
 
 {chorus}
-[A]Haul away, you rolling [E]kings
+> [A]Haul away, you rolling [E]kings
 > [A]Heave a[E]way, [A]haul a[E]way
-[A]Haul away, oh hear me [E]sing
-> We're bound for [B7]South Austral[E]ia
+> [A]Haul away, oh hear me [E]sing
+> We're bound for South Aus[B7]tral[E]ia
 
 As I walked out one morning fair
 > Heave away, haul away

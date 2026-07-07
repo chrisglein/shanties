@@ -1,17 +1,16 @@
 # Randy Dandy O
 
-{chorus}
-[Eb]Heave a pawl oh heave a way
-> [Bb]Way hey roll and go
-[Eb]The anchor's on board and the cable's all [Bb]stored
-> [Eb]To me rollickin' [Cm]randy dandy O
 
 Now we are ready to sail for the Horn
 > Way hey roll and go
 Our boots an' our clothes, boys, are all in the pawn
 > To me rollickin' randy dandy O
 
-[Chorus]
+{chorus}
+> [Am]Heave a pawl oh heave a way
+> Way [G]hey [Am]roll and go
+> The [C]anchor's on board and the [G]cable's all stored
+> To me [Am]rollickin' randy [E7]dandy [Am]O
 
 Man the stout caps'n and heave with a will
 > Way hey roll and go

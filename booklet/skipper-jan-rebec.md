@@ -1,16 +1,16 @@
 # Skipper Jan Rebec
 
-[Eb]Who's the king of the [Bb]fighting [Eb]Dutch
-> [Eb]Skipper [F]Jan Rebec
-[Eb]And who do the sailors [Bb]fear so much
-> [Eb]Skipper [F]Jan [Eb]Rebec
+[Eb/I]Who's the king of the [Ab/IV]fighting [Eb/I]Dutch
+> [Eb/I]Skipper [Bb/V]Jan Rebec
+[Eb/I]And who do the sailors [Ab/IV]fear so much
+> [Eb/I]Skipper [Bb/V]Jan&nbsp;&nbsp;&nbsp;[Eb/I]Rebec
 
 {chorus}
 > And it's
-> [Eb]Ja ja leave your hammocks
-> [Eb]Ja ja [F] *hands on deck*
-> [Eb]Ja ja [Bb] break your backs for
-> [Eb]Skipper [F]Jan [Eb]Rebec
+> [Eb/I]Ja ja leave your hammocks
+> [Eb/I]Ja ja [Bb/V] *hands on deck*
+> [Eb/I]Ja ja [Ab/IV] break your backs for
+> [Eb/I]Skipper [Bb/V]Jan&nbsp;&nbsp;&nbsp;[Eb/I]Rebec
 
 And who brought all the tea from China
 > Skipper Jan Rebec

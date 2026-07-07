@@ -6,10 +6,10 @@ Come lift up your voices all grief to refrain
 For we may or might never all meet here again
 
 {chorus}
-[Am]Here's a health to the [Em]company and [G]one to my [Am]lass
-[Am]Let us drink and be [C]merry all [Am]out of one [G]glass
-[Am]Let us drink and be [C]merry all [Am]grief to re[G]frain
-[Am]For we may or might [Em]never all [G]meet here a[Am]gain
+> [Am]Here's a health to the [Em]company and [G]one to my [Am]lass
+> [Am]Let us drink and be [C]merry all [Am]out of one [G]glass
+> [Am]Let us drink and be [C]merry all [Am]grief to re[G]frain
+> [Am]For we may or might [Em]never all [G]meet here a[Am]gain
 
 ---
 

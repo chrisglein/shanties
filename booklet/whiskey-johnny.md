@@ -2,8 +2,8 @@
 
 [E]Whiskey is the life of man
 > Whiskey, Johnny!
-[D]I'll drink whiskey while I [A]can
-> Whiskey for my Johnny Oh!
+[D]I'll drink whiskey while I can
+> [A]Whiskey for my Johnny Oh!
 
 Oh whiskey straight and whiskey strong,
 > Whiskey, Johnny!

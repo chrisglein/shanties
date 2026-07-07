@@ -1,7 +1,7 @@
 # Leave Her Johnny
 
 I [C]thought I heard the old man say
-> [G]Leave her Johnny [C]leave her
+> [F]Leave her Johnny [C]leave her
 To[F]morrow [C]ye will [G]get yer [C]pay
 > And it's [C]time for us to [G7]leave [C]her
 

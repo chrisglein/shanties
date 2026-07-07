@@ -92,9 +92,20 @@
 .toc-page { white-space: nowrap; font-variant-numeric: tabular-nums; }
 
 .warn-block {
+  display: flex;
+  align-items: center;
+  gap: 0.3in;
+  margin-top: 0.4in;
   font-size: 9.5pt;
-  text-align: center;
   line-height: 1.2;
+}
+.warn-text {
+  flex: 2 1 0;
+  text-align: left;
+}
+.warn-aside {
+  flex: 1 1 0;
+  text-align: center;
 }
 .warn-title {
   font-family: var(--body);
@@ -102,13 +113,19 @@
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  margin: 0.2in 0 0.08in;
+  margin: 0 0 0.08in;
 }
 .contents .version { margin-top: 0.5in; color: #444; }
 .colophon {
   color: #444;
   font-size: 9pt;
   font-family: var(--body);
+  margin: 0.1in 0 0;
+}
+.qr-label {
+  font-family: var(--body);
+  font-size: 9pt;
+  margin: 0 0 0.06in;
 }
 .toc-qr {
   text-align: center;
@@ -135,12 +152,12 @@
 
 .chorus {
   border: 1.5px dashed var(--rule);
-  padding: 0.16in 0.2in 0.12in;
+  padding: 0.1in;
   margin: 0 0 0.18in;
 }
 .cue {
   border: 1.5px dashed var(--rule);
-  padding: 0.05in 0.2in;
+  padding: 0.05in 0.1in;
   margin: 0.16in 0;
 }
 .label,
@@ -163,6 +180,10 @@
   padding-left: 0.16in;
   color: #1a1a1a;
 }
+
+/* A chorus is sung by the whole crew, so its lines stay italic but drop the
+   call/response indent — indentation is reserved for verse response refrains. */
+.chorus .refrain { padding-left: 0; }
 
 /* Chorded lines: chords float above the lyric. A segment begins at a chord
    and the chord is absolutely positioned over the segment's first letter. */

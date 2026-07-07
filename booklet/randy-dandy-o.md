@@ -1,6 +1,5 @@
 # Randy Dandy O
 
-
 Now we are ready to sail for the Horn
 > Way hey roll and go
 Our boots an' our clothes, boys, are all in the pawn
@@ -8,7 +7,7 @@ Our boots an' our clothes, boys, are all in the pawn
 
 {chorus}
 > [Am]Heave a pawl oh heave a way
-> Way [G]hey [Am]roll and go
+> [G]Way hey [C]roll and go
 > The [C]anchor's on board and the [G]cable's all stored
 > To me [Am]rollickin' randy [E7]dandy [Am]O
 

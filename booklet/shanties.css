@@ -217,7 +217,7 @@
   white-space: nowrap;
 }
 
-/* Key-aware chords (Option 3): a solid pill in the chord's harmonic-function
+/* Key-aware chords (Option 6): an outlined pill in the chord's harmonic-function
    color, with its Roman numeral to the right in the same color. The Roman
    numeral keeps the encoding legible when printed in grayscale. */
 .cl .chd.deg-1 { --fn: var(--deg1); }
@@ -228,10 +228,10 @@
 .cl .chd.deg-6 { --fn: var(--deg6); }
 .cl .chd.deg-7 { --fn: var(--deg7); }
 .cl .chd .chd-name {
-  background: var(--fn, var(--chord));
-  color: #fff;
+  color: var(--fn, var(--chord));
+  border: 1px solid var(--fn, var(--chord));
   border-radius: 0.28em;
-  padding: 0.05em 0.32em;
+  padding: 0.02em 0.28em;
 }
 .cl .chd .chd-rn {
   margin-left: 0.15em;

@@ -19,10 +19,15 @@ append head
 
         /* lean toolbar */
         #toolbar { gap: .45rem; margin-top: .6rem }
+        #toolbar .ico {
+            font-style: normal;
+            font-size: 1.05em;
+            line-height: 1;
+            vertical-align: -.05em;
+        }
         #toolbar .btn .bi { vertical-align: -.15em }
-        #toolbar .btn .bi + span,
-        #toolbar .btn .bi + * { margin-left: .35em }
-        #toolbar .btn-group-toggle .btn .bi { margin-right: .35em }
+        #toolbar .btn > .ico,
+        #toolbar .btn > .bi { margin-right: .3em }
         #toolbar #songLabel {
             display: inline-block;
             max-width: 45vw;
@@ -34,7 +39,14 @@ append head
         #toolbar .dropdown-menu { max-height: 60vh; overflow-y: auto }
         #key-menu { min-width: 7rem }
 
-        /* advanced panel (power-user / editing) */
+        /* staff hidden: keep #paper width (abcjs is responsive) but collapse its height.
+           abcjs sets an inline padding-bottom aspect-ratio, so override it with !important. */
+        body.no-staff #paper { height: 0 !important; padding-bottom: 0 !important; overflow: hidden }
+        #verses { display: none; margin-top: 1rem }
+        #verses p { margin-bottom: .8rem }
+        body.no-staff #verses { display: block }
+
+        /* advanced panel (ABC editing) */
         #advanced { display: none; margin-top: 1rem }
         #advanced > * { margin-bottom: .8rem }
 
@@ -56,7 +68,7 @@ append body
         //- Song picker (primary action)
         .dropdown
             button.btn.btn-primary.dropdown-toggle#songFile(type="button" data-toggle="dropdown" title="Choose a song")
-                +bi([{d:'M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2S10 12.105 10 11c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2z'},{fr:'evenodd',d:'M14 11V2h1v9h-1zM6 3v10H5V3h1z'},{d:'M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z'}])
+                span.ico 🎶
                 span#songLabel Pick a song
             .dropdown-menu#song-menu(aria-labelledby="songFile")
                 - var keys = Object.keys(src['by-title.json'])
@@ -64,37 +76,54 @@ append body
                 each k in keys
                     a.dropdown-item(href="#")= k
 
-        //- View toggles
+        //- Staff + note options
+        .btn-group.btn-group-toggle.btn-group-sm#staffToggles(data-toggle="buttons")
+            label.btn.btn-outline-secondary.active(title="Show the music staff")
+                input#show-staff(type="checkbox" checked autocomplete="off")
+                span.ico 🎼
+                | Staff
+            label.btn.btn-outline-secondary.active(title="Color notes by pitch")
+                input#show-notecolors(type="checkbox" checked autocomplete="off")
+                span.ico 🎨
+                | Color
+            label.btn.btn-outline-secondary.active(title="Label notes with letter names")
+                input#show-notelabels(type="checkbox" checked autocomplete="off")
+                span.ico 🔤
+                | Labels
+
+        //- Lyrics & instrument layers
         .btn-group.btn-group-toggle.btn-group-sm#viewToggles(data-toggle="buttons")
             label.btn.btn-outline-secondary.active(title="Show lyrics")
                 input#show-lyrics(type="checkbox" checked autocomplete="off")
-                +bi([{d:'M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z'},{d:'M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z'}])
+                span.ico 🗣️
                 | Lyrics
             label.btn.btn-outline-secondary(title="Show trumpet fingering")
                 input#show-trumpet(type="checkbox" autocomplete="off")
-                svg.bi(xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true" focusable="false")
-                    circle(cx="3.6" cy="8" r="2.1")
-                    circle(cx="8" cy="8" r="2.1")
-                    circle(cx="12.4" cy="8" r="2.1")
+                span.ico 🎺
                 | Trumpet
             label.btn.btn-outline-secondary(title="Show guitar tab")
                 input#show-gtab(type="checkbox" autocomplete="off")
-                svg.bi(xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.3" viewBox="0 0 16 16" aria-hidden="true" focusable="false")
-                    path(d="M1 3.5h14M1 6.5h14M1 9.5h14M1 12.5h14")
-                | Tab
+                span.ico 🎸
+                | Guitar
 
         //- Transpose: pick the destination key (offset shown)
         .dropdown
             button.btn.btn-outline-secondary.btn-sm.dropdown-toggle#keyBtn(type="button" data-toggle="dropdown" title="Transpose: choose a key")
                 +bi([{fr:'evenodd',d:'M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5zm-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5z'}])
-                span#keyLabel –
+                span#keyLabel Key: –
             .dropdown-menu.dropdown-menu-right#key-menu(aria-labelledby="keyBtn")
 
-        //- Advanced / edit ABC (power users)
-        button.btn.btn-outline-secondary.btn-sm.ml-auto#advancedToggle(type="button" title="Advanced / edit ABC" aria-pressed="false")
-            +bi([{d:'M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z'},{d:'M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.434-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z'}])
+        //- Songbook PDF / QR (document dialog)
+        button.btn.btn-outline-secondary.btn-sm.ml-auto#songbookBtn(type="button" data-toggle="modal" data-target="#songbookModal" title="Songbook PDF & QR code")
+            span.ico 📄
+
+        //- Edit the ABC source
+        button.btn.btn-outline-secondary.btn-sm#advancedToggle(type="button" title="Edit ABC notation" aria-pressed="false")
+            span.ico 🖊️
 
     #paper
+
+    #verses
 
     #advanced.noprint
         .item
@@ -106,10 +135,23 @@ append body
                 span  add a song
         textarea#abc(spellcheck="false")
         #warnings
-        p The Songbook PDF can be found at <a href="Songbook.pdf">this link</a>, or via this QR code:
-        img(src="qr-code.svg" alt="https://brewingcode.github.io/shanties/Songbook.pdf" width="200" height="200")
-        div
-            a(href="https://github.com/brewingcode/shanties/commit/" + src['GIT_HEAD'])= src['GIT_HEAD']
+
+    //- Songbook PDF + QR code dialog
+    #songbookModal.modal.fade.noprint(tabindex="-1" role="dialog" aria-labelledby="songbookModalLabel" aria-hidden="true")
+        .modal-dialog.modal-dialog-centered(role="document")
+            .modal-content
+                .modal-header
+                    h5.modal-title#songbookModalLabel Songbook
+                    button.close(type="button" data-dismiss="modal" aria-label="Close")
+                        span(aria-hidden="true") &times;
+                .modal-body.text-center
+                    p Download the printable songbook: <a href="Songbook.pdf" target="_blank">Songbook.pdf</a>
+                    p.text-muted or scan to open it on another device:
+                    img(src="qr-code.svg" alt="Songbook.pdf QR code" width="200" height="200")
+                .modal-footer.justify-content-center
+                    small.text-muted
+                        span version 
+                        a(href="https://github.com/brewingcode/shanties/commit/" + src['GIT_HEAD'])= src['GIT_HEAD']
     script.
         var songs = !{JSON.stringify(src['songs.json'])};
         var byTitle = !{JSON.stringify(src['by-title.json'])};
@@ -134,6 +176,7 @@ append body
             CHROMATIC = ['C', 'D♭', 'D', 'E♭', 'E', 'F', 'G♭', 'G', 'A♭', 'A', 'B♭', 'B']
             prevStep = 0
             origPc = null
+            currentSong = ''
 
             keyToPc = (name) ->
                 return null unless name
@@ -147,7 +190,7 @@ append body
             updateKeyLabel = ->
                 k = displayKey() or '–'
                 k += " (#{if prevStep > 0 then '+' else ''}#{prevStep})" unless prevStep is 0
-                $('#keyLabel').text k
+                $('#keyLabel').text "Key: #{k}"
                 $('#key-menu .dropdown-item').each ->
                     $(this).toggleClass 'active', +$(this).attr('data-offset') is prevStep
 
@@ -164,7 +207,25 @@ append body
                         .appendTo menu
                 updateKeyLabel()
 
+            esc = (s) -> $('<div>').text(s).html()
+
+            renderVerses = (song) ->
+                para = []
+                html = ''
+                flush = ->
+                    if para.length
+                        html += "<p>#{para.join('<br>')}</p>"
+                        para = []
+                for line in song.split(/\n/)
+                    m = line.match /^\s*W:(.*)$/
+                    continue unless m
+                    text = m[1].replace(/^\s/, '').replace(/\s+$/, '')
+                    if text is '' then flush() else para.push esc(text)
+                flush()
+                $('#verses').html html
+
             setSong = (song) ->
+                currentSong = song
                 s = song
                     .split /\n/
                     .filter (line) ->
@@ -178,7 +239,11 @@ append body
                         else
                             return true
                     .join('\n')
-                window.editor.editarea.setString s
+                directives = ''
+                directives += '%%notecolors 1\n' if $('#show-notecolors').is(':checked')
+                directives += '%%notelabels 1\n' if $('#show-notelabels').is(':checked')
+                window.editor.editarea.setString directives + s
+                renderVerses song
                 document.title = Object.entries(byTitle)
                     .find ([k,v]) -> v is song
                     ?.at(0) or 'YEEAAARGH'
@@ -227,8 +292,15 @@ append body
                     prevStep = tv
                     setTimeout updateKeyLabel, 500
 
-                $('#show-lyrics, #show-trumpet').on 'change', ->
-                    setSong byTitle[document.title]
+                $('#show-lyrics, #show-trumpet, #show-notecolors, #show-notelabels').on 'change', ->
+                    setSong currentSong
+
+                $('#show-staff').on 'change', ->
+                    on_ = $(this).is(':checked')
+                    $('body').toggleClass 'no-staff', not on_
+                    $('#show-notecolors, #show-notelabels')
+                        .prop('disabled', not on_)
+                        .closest('label').toggleClass 'disabled', not on_
 
                 $('#show-gtab').on 'change', ->
                     window.editor.paramChanged {
@@ -255,7 +327,7 @@ append body
                     setSong byTitle[title]
                     $('#songLabel').text title
                 else
-                    setSong "%%notelabels 1\nB c d e | ff | c'd' | EE E | =D^D"
+                    setSong "B c d e | ff | c'd' | EE E | =D^D"
 
                 if params.get('advanced') is 'true'
                     $('#advanced').show()

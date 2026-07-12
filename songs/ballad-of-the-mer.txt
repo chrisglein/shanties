@@ -1,5 +1,4 @@
 T: Ballad of the Mer
-%%vocalfont times 10
 L:1/4
 K: Eb
 M: 3/4

@@ -1,5 +1,4 @@
 T: Mercy, Mercy, Mercy
-%%vocalfont times 10
 K: F
 M: 4/4
 "C7" z2 A G2 "C7/E" EEC | "F" DCCA, "G7sus" C2 D2

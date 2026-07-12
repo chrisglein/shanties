@@ -1,6 +1,5 @@
 X: 1
 T: Bosun Bill
-%%vocalfont times 10
 M: 2/4
 L: 1/16
 K: Eb

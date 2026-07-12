@@ -1,5 +1,4 @@
 T: South Australia
-%%vocalfont times 10
 M: 4/4
 K: E
 P: Part A

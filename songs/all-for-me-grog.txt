@@ -1,6 +1,5 @@
 X: 1
 T: All For Me Grog
-%%vocalfont times 10
 M: 4/4
 L: 1/8
 K: C

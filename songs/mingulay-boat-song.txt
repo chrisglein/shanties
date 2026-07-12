@@ -1,5 +1,4 @@
 T: Mingulay Boat Song
-%%vocalfont times 10
 M: 3/4
 Q: 1/4=140
 K: G

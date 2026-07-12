@@ -1,5 +1,4 @@
 T: Toss a Coin to Your Witcher
-%%vocalfont times 10
 K: Db
 M:4/4
 "Bbm" z4 DCB,A, | "Eb" B,4 DEDC |

@@ -1,6 +1,5 @@
 X: 1
 T: Bully in the Alley
-%%vocalfont times 10
 K: G
 M: 4/4
 Q: 1/4=150

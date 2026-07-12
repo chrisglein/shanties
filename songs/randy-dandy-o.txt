@@ -1,5 +1,4 @@
 T: Randy Dandy-O
-%%vocalfont times 10
 K: C
 M: 6/8
 L: 1/16
